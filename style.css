@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color and center the content */
+  body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header section */
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the contact section */
+  #contact {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact h2 {
+    margin-bottom: 10px;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin-bottom: 5px;
+  }
+  
+  /* Style the footer */
+  footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
